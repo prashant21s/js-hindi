@@ -12,3 +12,9 @@ console.log(typeof (score));
 let isLoggedIn = 1
 let booleanIsLoggedIn = Boolean(isLoggedIn)
 console.log( booleanIsLoggedIn)
+
+console.log("1" + 2);
+console.log(1 + "2");
+console.log(1 + 2 + "2"); //output 32
+console.log(+true); // output 1
+console.log(+""); //output 0
